@@ -1,1 +1,13 @@
-Archivo de ejemplo
+Configuracion inicial
+
+git init
+//git add . Agrega todos los archivos
+git add "archivo.extension"
+git config --global user.email "ivanbn.isc@gmail.com"
+git config --global user.name "IvanBN"
+//git pool 
+git commit -m "first commit"
+//git remote remove eliminar algo
+git remote add add origin https://github.com/IvanBN/php_drupal.git
+git push -u origin master
+//git status permite ver el estatus de los arhivos
