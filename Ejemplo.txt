@@ -5,7 +5,7 @@ git init
 git add "archivo.extension"
 git config --global user.email "ivanbn.isc@gmail.com"
 git config --global user.name "IvanBN"
-//git pool 
+//git pool para traer todas las modificaciones realizadas
 git commit -m "first commit"
 //git remote remove eliminar algo
 git remote add add origin https://github.com/IvanBN/php_drupal.git
