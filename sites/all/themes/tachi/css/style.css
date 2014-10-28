@@ -2,3 +2,55 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
+.region-barra-sup{
+	background: #e5e1c6;
+	border-bottom: 1px solid #d3cea8; 
+	height: 31px;
+	width: 100%;
+	padding-left: 180px;
+	font-size: 11px;
+	display: inline-block;
+}
+
+#block-block-2 {
+	padding: 8px;
+}
+
+.link-periodico{
+	text-decoration: none;
+	font-weight: 700;
+	color: #6f6a2f !important;
+	text-transform: uppercase;
+}
+
+#activo{
+	color: #aa6015  !important;
+}
+
+#block-search-form{
+	width: 300px;
+	float: left;
+	height: 30px;
+	padding: 3px;
+}
+
+#block-block-2{
+	width: 300px;
+	float: left;
+}
+
+#edit-search-block-form--2{
+	padding: 0px;
+	height: 25px;
+}
+
+.btn-default{
+	height: 25px;
+	padding: 2px;
+}
+
+#logo{
+	clear: both;
+	display: block;
+	padding-left: 180px;
+}
