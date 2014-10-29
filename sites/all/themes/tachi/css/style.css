@@ -2,6 +2,10 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
+ body{
+ 	font-family: Tahoma;
+ }
+
 .region-barra-sup{
 	background: #e5e1c6;
 	border-bottom: 1px solid #d3cea8; 
@@ -53,4 +57,328 @@
 	clear: both;
 	display: block;
 	padding-left: 180px;
+}
+
+.navbar.container {
+    margin-top: 0px;
+    max-width: 2000px;
+    min-width: 1169px;
+    max-height: 40px;
+    min-height: 30px;
+}
+
+#navbar{
+	clear: both;
+	background: #f2861a;
+	width: 100%;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #d96d01;
+	border-top: 1px solid #d96d01;
+	display: block;
+	border-radius: 0px;
+	height: 40px;
+}
+
+.navbar-collapse{
+	padding-left: 150px;
+}
+
+.leaf a{
+	margin-top: 2px; 
+	height: 38px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #FF9832;
+	font-weight: lighter;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: url("http://www.livemint.com/rw/SysConfig/WebPortal/LiveMint/static_content/images/header/arrow_down.gif") no-repeat scroll center bottom 8px #fff;;
+    color: black;
+    padding: 7px 15px;
+    border-bottom: 0px;
+}
+
+/*.navbar-default .navbar-nav > .leaf > a, .navbar-default .navbar-nav > .leaf > a:hover, .navbar-default .navbar-nav > .leaf > a:focus {
+    border-bottom: 3px solid rgb(255, 152, 50);
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}*/
+
+/*Primera seccion de articulos*/
+#block-block-3{
+	border-bottom: 1px dotted #7d7a58;
+    margin-left: 60px;
+    padding: 5px 0;
+    width: 90%;
+}
+
+.derecha{
+	float: right;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.hot_lnk_box{
+	background: #464646;
+	float: left;
+	padding: 3px 14px;
+	margin-right: 5px;
+}
+
+.hot_lnk_box a{
+	color: white;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+.hot_lnk_box a:hover{
+	color: #f2861a;
+}
+
+.izquierda{
+	float: left;
+	color: #7d7a58;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.izquierda ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.izquierda ul li{
+	float: left;
+    font-weight: 700;
+    padding: 5px 4px 0 0;
+    text-transform: uppercase;
+}
+
+.izquierda a{
+	color: #7d7a58;
+    text-decoration: none;
+}
+
+.izquierda a:hover{
+	color: #FF9832;
+	border-bottom: 3px solid #FF9832;
+}
+
+.col-sm-9{
+	width: 750px;
+	margin-left: 60px;
+}
+
+#block-views-home-block{
+	width: 700px;
+	padding: 10px 0px;
+	border-bottom: 1px dotted #ca6c18;
+}
+
+#block-views-home-block ul{
+	padding: 0px;
+}
+
+#block-views-home-block .views-row{
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	height: 200px;
+}
+
+#block-views-home-block .views-field-body,.views-field-title,.views-field-field-image{
+	float: left;
+}
+
+#block-views-home-block .views-field-body{
+	width: 50%;
+	color: #464646;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#block-views-home-block .views-field-field-image{
+	width: 50%;
+	height: 100%;
+}
+
+#block-views-home-block .views-field-field-image img{
+	width: 95%;
+	height: 200px;
+}
+
+#block-views-home-block .views-field-title{
+	font-family: Unna,Times New Roman,Times,serif;
+    font-size: 30px;
+    margin: 2px 0 0;
+}
+
+#block-views-home-block .views-field-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+#block-views-home-block .views-field-title a:hover{
+	color: #ca6c18;
+}
+
+/*Segunda Seccion de articulos*/
+#block-views-art-sec-block{
+	width: 50%;
+	padding: 10px 10px 10px 0px;
+	float: left;
+}
+
+#block-views-art-sec-block ul{
+	padding: 0px;
+}
+
+#block-views-art-sec-block .views-row{
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+#block-views-art-sec-block .views-field-title,.views-field-field-image{
+	float: left;
+}
+
+#block-views-art-sec-block .views-field-field-image{
+	width: 50%;
+	height: 100%;
+}
+
+#block-views-art-sec-block .views-field-title{
+	font-family: Unna,Times New Roman,Times,serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#block-views-art-sec-block .views-field-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+#block-views-art-sec-block .views-field-title a:hover{
+	color: #ca6c18;
+}
+
+#block-views-art-sec-block .views-field-field-image img{
+	width: 90px;
+	height: 60px;
+}
+
+#block-views-art-sec-block .views-field-field-image{
+	width: 90px;
+	height: 60px;
+	margin: 0px 10px 5px 0px;
+}
+
+#block-views-art-sec-block-1{
+	width: 40%;
+	float: left;
+	margin-left: 40px;
+}
+
+#block-views-art-sec-block-1 ul{
+	clear: both;
+	padding: 0px;
+	list-style-type: square;
+	color: #ca6c18;
+}
+
+#block-views-art-sec-block-1 .views-row{
+	height: auto;
+	border-bottom: 1px dotted #ca6c18;
+	margin-bottom: 10px;
+}
+
+#block-views-art-sec-block-1 .views-field-title{
+	float: left;
+}
+
+#block-views-art-sec-block-1 .views-field-title{
+	font-family: Unna,Times New Roman,Times,serif;
+    font-size: 13px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+#block-views-art-sec-block-1 .views-field-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+#block-views-art-sec-block-1 .views-field-title a:hover{
+	color: #ca6c18;
+}
+
+
+/*Tercera Seccion de articulos*/
+#block-views-art-terc-block{
+	clear: both;
+	width: 50%;
+	padding: 10px 10px 10px 0px;
+	float: left;
+}
+
+#block-views-art-terc-block{
+	width: 50%;
+	padding: 10px 10px 10px 0px;
+	float: left;
+}
+
+#block-views-art-terc-block ul{
+	padding: 0px;
+}
+
+#block-views-art-terc-block .views-row{
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+#block-views-art-terc-block .views-field-title,.views-field-field-image{
+	float: left;
+}
+
+#block-views-art-terc-block .views-field-field-image{
+	width: 50%;
+	height: 100%;
+}
+
+#block-views-art-terc-block .views-field-title{
+	font-family: Unna,Times New Roman,Times,serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#block-views-art-terc-block .views-field-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+#block-views-art-terc-block .views-field-title a:hover{
+	color: #ca6c18;
+}
+
+#block-views-art-terc-block .views-field-field-image img{
+	width: 120px;
+	height: 80px;
+}
+
+#block-views-art-terc-block .views-field-field-image{
+	width: 120px;
+	height: 80px;
+	margin: 0px 10px 5px 0px;
 }
