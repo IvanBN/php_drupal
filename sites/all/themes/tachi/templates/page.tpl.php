@@ -164,6 +164,7 @@
     <?php endif; ?>
 
   </div>
+  <?php print render($page['barra_imagenes']); ?>
 </div>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
