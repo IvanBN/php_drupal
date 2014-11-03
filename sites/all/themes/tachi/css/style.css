@@ -14,16 +14,22 @@
 
 #block-system-main{
 	clear: both;
-	display: none;
+	
 }
 
 .col-sm-3{
-	margin-left: 200px;
+	display: block;
 }
 
- .container{
+.col-sm-6{
+	display: block;
+	width: 65%;
+	margin-left: 80px;
+}
+
+.container{
  	height: 100%;
- }
+}
 
 .region-barra-sup{
 	background: #e5e1c6;
@@ -54,10 +60,15 @@
 }
 
 .link-periodico{
-	text-decoration: none;
 	font-weight: 700;
-	color: #6f6a2f !important;
 	text-transform: uppercase;
+	text-decoration: none;
+	color: #6f6a2f;
+}
+
+.link-periodico:hover{
+	color: #000;
+	text-decoration: none;
 }
 
 #activo{
@@ -102,7 +113,7 @@
 
 #navbar{
 	clear: both;
-	background: #f2861a;
+	background: #e5790d;
 	width: 100%;
 	margin-bottom: 0px;
 	border-bottom: 1px solid #d96d01;
@@ -113,54 +124,47 @@
 }
 
 .navbar-collapse{
-	padding-left: 150px;
+	padding-left: 160px;
 }
 
-/*.leaf a{
-	margin-top: 2px; 
-	height: 38px;
+.navbar-nav > li{
 	text-transform: uppercase;
-	padding: 7px 15px;
-	border-bottom: 3px solid #FF9832;
 	font-weight: lighter;
-}*/
+	font-size: 14px;
+	background-color: #e5790d;
+	height: 38px;
+    padding: 8px 15px;
+}
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    /*background: url("http://www.livemint.com/rw/SysConfig/WebPortal/LiveMint/static_content/images/header/arrow_down.gif") no-repeat scroll center bottom 8px #fff;*/
-    background-color: #f2861a;
+.navbar-nav > li.active{
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav > .leaf > a, .navbar-default .navbar-nav > .leaf > a:hover, .navbar-default .navbar-nav > .leaf > a:focus {
+    background-color: #e5790d;
     color: white;
-    padding: 0px 15px 0px;
-    border-bottom: 0px;
-    margin-top: 0px; 
-	height: 38px;
-	text-transform: uppercase;
-	font-weight: lighter;
+    margin: 0px; 		
 	border-bottom: 3px solid #ff9832;
-	height: 24px;
-    margin-top: 8px;
-    margin-left: 1px;
+    height: 24px;
+    padding: 0px;
 }
 
-.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
     background: url("http://www.livemint.com/rw/SysConfig/WebPortal/LiveMint/static_content/images/header/arrow_down.gif") no-repeat scroll center bottom 8px #fff;    color: black;
     padding: 7px 15px;
     border-bottom: 0px;
     margin-top: 2px; 
 	height: 38px;
-	text-transform: uppercase;
-	font-weight: lighter;
 }
 
-/*.navbar-default .navbar-nav > .leaf > a, .navbar-default .navbar-nav > .leaf > a:hover, .navbar-default .navbar-nav > .leaf > a:focus {
-    border-bottom: 3px solid rgb(255, 152, 50);
-    color: rgb(255, 255, 255) !important;
-    text-decoration: none;
-}*/
+ul.secondary{
+	display: none;
+}
 
 /*Primera seccion de articulos*/
 #block-block-3{
 	border-bottom: 1px dotted #7d7a58;
-    margin-left: 60px;
+    margin-left: 80px;
     padding: 5px 0;
     width: 90%;
 }
@@ -763,7 +767,7 @@
 
 /*Galeria*/
 #block-views-galeria-block{
-	padding-left: 60px;
+	padding-left: 80px;
 }
 
 #views_slideshow_cycle_main_galeria-block{
@@ -772,20 +776,51 @@
     width: 660px;
     height: 310px;
 }
+.views-slideshow-controls-bottom{
+	display: block;
+	-webkit-transform:translate(350px,-20px);
+	-moz-transform:translate(350px,-20px);
+    width: 300px;
+    z-index: 99;
+}
+
+
 #views_slideshow_controls_text_galeria-block{
-	width: 660px;
-	background: black;
+    display: block;
+    -webkit-transform:translate(-350px,0px);
+	-moz-transform:translate(-350px,0px);
+    width: 300px;
+    z-index: 99;
 }
 
 #views_slideshow_cycle_main_galeria-block .views-field-field-image, 
-#views_slideshow_cycle_main_galeria-block .views-field-body, 
 #views_slideshow_cycle_main_galeria-block .views-field-title{
 	float: left;
 }
 
-#views_slideshow_cycle_main_galeria-block .views-field-field-image{
-	height: 310px;
-    width: 465px;
+#views_slideshow_cycle_main_galeria-block .views-field-body{
+	display: block;
+	margin-left: 0px;
+	color: white;
+	float: top;
+	width: 190px;
+	font-size: 16px;
+}
+
+#views_slideshow_cycle_main_galeria-block .views-field-title{
+	width: 190px;
+	height: 60px;
+}
+
+#views_slideshow_cycle_main_galeria-block .views-field-title a{
+	font-size: 24px;
+	font-weight: lighter;
+	text-decoration: none;
+	color: white;
+}
+
+#views_slideshow_cycle_main_galeria-block .views-field-title a:hover{
+	color: #ca6c18;
 }
 
 .views-slideshow-controls-bottom .views-field-title a{
@@ -802,3 +837,44 @@
 	background: #ca6c18;
 }
 
+.views-slideshow-controls-bottom #widget_pager_bottom_galeria-block > .active a{
+	background: #ca6c18;
+}
+
+.views-slideshow-controls-text-pause{
+	visibility: hidden;
+}
+
+.views-slideshow-controls-text-previous a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url("http://www.livemint.com/rw/SysConfig/WebPortal/LiveMint/static_content/images/arrow/lft_arrow.gif") no-repeat;
+	text-indent: -1000px;
+	margin-left: 3px;
+}
+
+.views-slideshow-controls-text-next a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url("http://www.livemint.com/rw/SysConfig/WebPortal/LiveMint/static_content/images/arrow/rft_arrow.gif") no-repeat;
+	text-indent: -1000px;
+	margin-left: 3px;
+}
+
+.views-slideshow-controls-text-next a:focus ,.views-slideshow-controls-text-previous a:focus{
+	outline: none;
+}
+
+.views-slideshow-controls-text-previous{
+	display: block;
+	-webkit-transform: translate(-3px, -20px);
+	-moz-transform: translate(-3px, -20px);
+}
+
+.views-slideshow-controls-text-next{
+	display: block;
+	-webkit-transform: translate(627px, -70px);
+	-moz-transform: translate(627px, -70px);
+}
