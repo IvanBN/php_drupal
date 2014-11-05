@@ -155,6 +155,8 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+      <?php print render($page['opc_categorias']); ?>
+      <?php print render($page['barra_imagenes']); ?>
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
@@ -162,9 +164,7 @@
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
-
   </div>
-  <?php print render($page['barra_imagenes']); ?>
 </div>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
