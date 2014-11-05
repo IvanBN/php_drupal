@@ -1,13 +1,14 @@
 Configuracion inicial
 
 git init
-//git add . Agrega todos los archivos
+git add . //Agrega todos los archivos
 git add "archivo.extension"
 git config --global user.email "ivanbn.isc@gmail.com"
 git config --global user.name "IvanBN"
-//git pool para traer todas las modificaciones realizadas
+git pull origin master //Para traer todas las modificaciones realizadas
 git commit -m "first commit"
-//git remote remove eliminar algo
-git remote add add origin https://github.com/IvanBN/php_drupal.git
+git remote remove //Eliminar algo
+git remote add origin https://github.com/IvanBN/php_drupal.git
 git push -u origin master
-//git status permite ver el estatus de los arhivos
+git status //Permite ver el estatus de los arhivos
+git romete //Permite ver el origen
