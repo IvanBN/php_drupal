@@ -2,15 +2,19 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
- body{
+body{
  	font-family: Tahoma;
  	height: 100%;
- }
+}
 
- ul{
+ul{
  	list-style-type: none;
  	padding-left: 0px;
- }
+}
+
+a:focus{
+	outline: none;
+}
 
 #block-system-main{
 	clear: both;
@@ -602,16 +606,13 @@ ul.secondary{
 	clear: both;
 	width: 100%;
 	height: 50px;
+	text-transform: uppercase;
 	display: block;
 }
 
 #block-block-4 .more{
 	font-weight: 700;
 	font-size: 11px;
-}
-
-#block-block-4{
-    text-transform: uppercase;
 }
 
 #block-block-4 #campanie{
@@ -842,6 +843,285 @@ ul.secondary{
 	color: #464646;
     font-size: 12px;
 }
+
+#block-views-art-7-block, #block-views-art-7-block-1, #block-views-art-7-block-2{
+	width: 190px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: block;
+}
+
+#block-views-art-7-block ul, 
+#block-views-art-7-block-1 ul, 
+#block-views-art-7-block-2 ul{
+	padding: 0px;
+	list-style-type: none;
+	color: #ca6c18;
+}
+
+#block-views-art-7-block .views-row, 
+#block-views-art-7-block-1 .views-row, 
+#block-views-art-7-block-2 .views-row{
+	height: 45px;
+	padding: 5px;
+	border-bottom: 1px dotted #ca6c18;
+}
+
+
+#block-views-art-7-block .views-field-title, 
+#block-views-art-7-block-1 .views-field-title, 
+#block-views-art-7-block-2 .views-field-title{
+	font-family: Unna,Times New Roman,Times,serif;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+#block-views-art-7-block .views-field-title a, 
+#block-views-art-7-block-1 .views-field-title a, 
+#block-views-art-7-block-2 .views-field-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+#block-views-art-7-block .views-field-title a:hover, 
+#block-views-art-7-block-1 .views-field-title a:hover, 
+#block-views-art-7-block-2 .views-field-title a:hover{
+	color: #ca6c18;
+}
+
+
+#block-block-7 .more{
+	clear: both;
+	display: block;
+    text-transform: uppercase;
+    width: 100%;
+    color: white;
+    font-size: 11px;
+	font-weight: 700;
+}
+
+#block-block-7 #costumer,
+#block-block-7 #industry,
+#block-block-7 #politics{
+	background: #fff;
+    float: left;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px 7px;
+    text-align: center;
+    width: 190px;
+}
+
+#block-block-7 #costumer a,
+#block-block-7 #industry a,
+#block-block-7 #politics a{
+	color: #ca6c18;
+	text-decoration: none;
+}
+
+#block-block-7 #costumer a:hover,
+#block-block-7 #industry a:hover,
+#block-block-7 #politics a:hover{
+	color: #000;
+}
+
+/*Estilos seccion de formularios*/
+#block-webform-client-block-21{
+	background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    color: #4e4e4e;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    text-align: left;
+    width: 100%;
+    padding: 12px;
+}
+
+#block-webform-client-block-21 .block-title{
+	margin: 0px;
+	color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 120%;
+    padding: 5px 0 15px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#block-webform-client-block-21 .opc_votacion{
+	color: #4e4e4e;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+#block-webform-client-block-21 .form-type-radio{
+	margin: 0px;
+	display: block;
+    padding: 8px 0;
+}
+
+#webform-client-form-21 .button-primary{
+	margin-top: 10px;
+	border: 1px solid #999;
+    border-radius: 11px;
+    color: #464646;
+    font-family: "Lucida Grande",Verdana,Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 25px;
+    white-space: nowrap;
+}
+
+#webform-client-form-21 .button-primary:hover,
+#webform-client-form-21 .button-primary:focus,
+#webform-client-form-21 .button-primary:active{
+	border: 1px solid #000;
+	background: #fff;
+}
+
+#block-user-login{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#block-user-login #edit-submit{
+	margin-top: 10px;
+	border: 1px solid #999;
+    border-radius: 11px;
+    color: #464646;
+    font-family: "Lucida Grande",Verdana,Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 25px;
+    white-space: nowrap;
+}
+
+#block-user-login #edit-submit:hover,
+#block-user-login #edit-submit:focus,
+#block-user-login #edit-submit:active{
+	background: #e5790d;
+	color: white;
+}
+
+#block-user-login .block-title{
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#block-system-user-menu{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#block-system-user-menu .block-title{
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#block-system-user-menu li{
+	margin-bottom: 5px;
+}
+
+#block-system-user-menu .leaf a{
+	background: #e5790d;
+	color: white;
+	padding: 5px 15px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+#block-system-user-menu .leaf a:hover{
+	background: #fff;
+	color: #e5790d;
+	border: 1px solid #e5790d;
+}
+
+
+
+
+
+/*Estilos articulo full*/
+.submitted{
+	display: none;
+}
+
+#block-system-main .field-name-field-image{
+	text-align: center;
+	margin: 10px 0px 20px 0px;
+}
+
+#block-system-main .field-name-body{
+	text-align: justify;
+	font-size: 12px;
+	font-family: "Lucida Grande",Verdana,Arial;
+	padding: 15px;
+}
+
+#block-system-main .field-name-field-categorias a{
+	color: #000;
+	margin-bottom: 20px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#block-system-main .field-name-field-categorias a:hover{
+	color: #e5790d;
+}
+
+#block-views-filtros-block{
+	margin-top: 40px;
+}
+
+#block-views-filtros-block .views-field-title a{
+	clear: both;
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+}
+
+#block-views-filtros-block ul{
+	clear: both;
+	display: block;
+}
+
+#block-views-filtros-block .views-field-field-categorias{
+	clear: both;
+	display: block;
+	color: #000;
+	font-weight: lighter;
+}
+
+#block-views-filtros-block .views-field-field-categorias a{
+	color: #000;
+	margin-bottom: 12px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#block-views-filtros-block .views-field-field-categorias a:hover{
+	color: #e5790d;
+}
+
+#block-views-filtros-block .views-row{
+	display: block;
+	padding: 10px;
+	float: left;
+	width: 200px;
+	height: 250px;
+}
+
+
 
 
 
