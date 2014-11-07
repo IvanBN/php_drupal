@@ -1110,6 +1110,27 @@ ul.secondary{
 	text-transform: uppercase;
 }
 
+#block-user-login li{
+	margin-bottom: 15px;
+}
+
+#block-user-login .first a,
+#block-user-login .last a{
+	background: #e5790d;
+	color: white;
+	padding: 5px 15px;
+	height: 30px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+#block-user-login .first a:hover,
+#block-user-login .last a:hover{
+	background: #fff;
+	color: #000;
+	border: 1px solid #e5790d;
+}
+
 #block-system-user-menu{
 	margin-top: 20px;
 	margin-bottom: 40px;
