@@ -28,14 +28,14 @@ a:focus{
 
 .col-sm-6{
 	display: block;
-	width: 60%;
+	width: 62%;
 	margin-left: 80px;
 }
 
 
 .col-sm-9{
 	display: block;
-	width: 60%;
+	width: 62%;
 	margin-left: 80px;
 }
 
@@ -891,12 +891,17 @@ ul.secondary{
 	color: #ca6c18;
 }
 
+#block-block-7{
+    height: 30px;
+    float: left;
+}
 
 #block-block-7 .more{
 	clear: both;
 	display: block;
     text-transform: uppercase;
     width: 100%;
+    height: 30px;
     color: white;
     font-size: 11px;
 	font-weight: 700;
@@ -927,6 +932,94 @@ ul.secondary{
 #block-block-7 #politics a:hover{
 	color: #000;
 }
+
+
+
+
+
+/*Seccion de companies*/
+#block-system-main .view-companies .views-row{
+	height: auto;
+	margin: 10px 20px;
+	display: block;
+	float: left;
+	border-bottom: 1px dotted #ca6c18;
+}
+
+#block-system-main .view-companies .views-field-title{
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700px;
+	margin: 10px 10px;
+	width: 50%;
+	float: left;
+	display: block;
+}
+
+#block-system-main .view-companies .views-field-body{
+	text-align: justify;
+	font-size: 12px;
+	margin: 10px 0px;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+#block-system-main .view-companies .views-field-title a{
+	text-decoration: none;
+	color: #ca6c18;
+}
+
+#block-system-main .view-companies .views-field-title a:hover{
+	color: #000;
+}
+
+
+#block-system-main .view-companies .views-row-1 .views-field-title{
+    font-size: 30px;
+    margin: 2px 0 0;
+}
+
+#block-system-main .view-companies .views-row-1 .views-field-field-image{
+    width: 50%;
+}
+
+#block-system-main .view-companies .views-row-1 .views-field-field-image img {
+    height: 200px;
+    width: 95%;
+}
+
+#block-system-main .view-companies .views-row-1 .views-field-body{
+	width: 50%;
+}
+
+#block-system-main .view-companies .views-row-1{
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+#block-system-main .view-companies .views-row-2,
+#block-system-main .view-companies .views-row-3,
+#block-system-main .view-companies .views-row-4,
+#block-system-main .view-companies .views-row-5,
+#block-system-main .view-companies .views-row-6,
+#block-system-main .view-companies .views-row-7,
+#block-system-main .view-companies .views-row-8{
+	width: 44%;
+}
+
+#block-system-main .view-companies .views-row-2 .views-field-field-image img,
+#block-system-main .view-companies .views-row-3 .views-field-field-image img,
+#block-system-main .view-companies .views-row-4 .views-field-field-image img,
+#block-system-main .view-companies .views-row-5 .views-field-field-image img,
+#block-system-main .view-companies .views-row-6 .views-field-field-image img,
+#block-system-main .view-companies .views-row-7 .views-field-field-image img,
+#block-system-main .view-companies .views-row-8 .views-field-field-image img {
+    height: 80px;
+    width: 120px;
+}
+
+
 
 /*Estilos seccion de formularios*/
 #block-webform-client-block-21{
